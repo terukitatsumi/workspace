@@ -1,0 +1,11 @@
+package com.example.controller;
+
+import org.springframework.*;
+
+import com.example.*;
+
+@Controller
+@RequestMapping("/item")
+public class ItemController {
+	
+}

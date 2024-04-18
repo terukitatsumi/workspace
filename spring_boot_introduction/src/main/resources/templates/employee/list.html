@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>全件取得</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>従業員名</th>
+                <th>部署</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- 繰り返したいコレクションを指定、employeeは毎度上書きされる -->
+            <tr th:each="employee : ${employees}">
+                <!-- employee内のフィールドを出力する -->
+                <td th:text="${employee.id}"></td>
+                <td th:text="${employee.name}"></td>
+                <td th:text="${employee.department}"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

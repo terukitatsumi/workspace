@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<!-- xmlns:th~は記載がなくても動作に支障はありませんが、
+    エディターにて構文エラーとしてあつかわれるため必ず記述しましょう -->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Hello Spring Boot</title>
+</head>
+<body>
+    <h1>Hello world!!</h1>
+</body>
+</html>
