@@ -5,6 +5,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 
@@ -28,6 +30,16 @@ public class Item {
 
 	@Column(name = "DELETED_AT")
 	private LocalDateTime deletedAt;
+
+	@Column(name = "CATEGORY_ID")
+	private Integer categoryId;
+
+	@Column(name = "STOCK")
+	private Integer stock;
+
+	@ManyToOne
+	@JoinColumn(name = "category_id", insertable = false, updatable = false)
+	private Category category;
 
 	public Integer getId() {
 		return this.id;
@@ -60,4 +72,25 @@ public class Item {
 	public void setDeletedAt(LocalDateTime deletedAt) {
 		this.deletedAt = deletedAt;
 	}
+
+	public Integer getCategoryId() {
+		return this.categoryId;
+	}
+
+	public void setCategoryId(Integer categoryId) {
+		this.categoryId = categoryId;
+	}
+
+	public Category getCategory() {
+		return this.category;
+	}
+
+	public Integer getStock() {
+		return this.stock;
+	}
+
+	public void setStock(Integer stock) {
+		this.stock = stock;
+	}
+
 }

@@ -8041,3 +8041,117 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 !ENTRY org.eclipse.emf.ecore 2 0 2024-04-18 18:01:46.512
 !MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+!SESSION 2024-04-19 09:07:19.778 -----------------------------------------------
+eclipse.buildId=4.30.0.20231201-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-19 09:07:21.584
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-04-19 14:15:45.816
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY mergedoc.encoding 2 0 2024-04-19 17:40:47.042
+!MESSAGE リソース '/item_manager/src/main/resources/static/default.css' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-04-19 17:40:47.046
+!MESSAGE リソース '/item_manager/src/main/resources/static/default.css' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-04-19 17:40:47.048
+!MESSAGE リソース '/item_manager/src/main/resources/static/default.css' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-04-19 17:40:47.050
+!MESSAGE リソース '/item_manager/src/main/resources/static/default.css' が存在しません。
+!SESSION 2024-04-22 09:04:03.525 -----------------------------------------------
+eclipse.buildId=4.30.0.20231201-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-22 09:04:05.976
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.buildship.core 4 0 2024-04-22 09:15:56.927
+!MESSAGE 未解決の依存関係: org.thymeleaf.extras thymeleaf-extras-springsecurity5
+
+!ENTRY org.eclipse.buildship.core 4 0 2024-04-22 09:15:58.069
+!MESSAGE 未解決の依存関係: org.thymeleaf.extras thymeleaf-extras-springsecurity5
+
+!ENTRY org.eclipse.buildship.core 4 0 2024-04-22 09:16:03.607
+!MESSAGE 未解決の依存関係: org.thymeleaf.extras thymeleaf-extras-springsecurity5
+
+!ENTRY org.eclipse.buildship.core 4 0 2024-04-22 09:18:14.118
+!MESSAGE 未解決の依存関係: org.thymeleaf.extras thymeleaf-extras-springsecurity5
+
+!ENTRY org.eclipse.buildship.core 4 0 2024-04-22 09:18:26.387
+!MESSAGE 未解決の依存関係: org.thymeleaf.extras thymeleaf-extras-springsecurity5
+
+!ENTRY org.eclipse.buildship.core 4 0 2024-04-22 09:19:03.939
+!MESSAGE 未解決の依存関係: org.thymeleaf.extras thymeleaf-extras-springsecurity5
+
+!ENTRY org.eclipse.buildship.core 4 0 2024-04-22 09:19:04.936
+!MESSAGE 未解決の依存関係: org.thymeleaf.extras thymeleaf-extras-springsecurity5
+
+!ENTRY org.eclipse.buildship.core 4 0 2024-04-22 09:19:09.799
+!MESSAGE 未解決の依存関係: org.thymeleaf.extras thymeleaf-extras-springsecurity5
+
+!ENTRY org.eclipse.buildship.core 4 0 2024-04-22 09:19:10.594
+!MESSAGE 未解決の依存関係: org.thymeleaf.extras thymeleaf-extras-springsecurity5
+
+!ENTRY org.eclipse.buildship.core 4 0 2024-04-22 09:42:18.044
+!MESSAGE 未解決の依存関係: org.thymeleaf.extras thymeleaf-extras-springsecurity5
+
+!ENTRY org.eclipse.buildship.core 4 0 2024-04-22 09:42:18.927
+!MESSAGE 未解決の依存関係: org.thymeleaf.extras thymeleaf-extras-springsecurity5
+
+!ENTRY org.eclipse.buildship.core 4 0 2024-04-22 09:46:57.933
+!MESSAGE 未解決の依存関係: org.thymeleaf.extras thymeleaf-extras-springsecurity5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-04-22 09:53:42.022
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): spring_security_sample-111 は存在しません
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:549)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2576)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2438)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2481)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-04-22 09:53:42.024
+!MESSAGE spring_security_sample-111 は存在しません
+
+!ENTRY mergedoc.encoding 2 0 2024-04-22 11:10:58.391
+!MESSAGE リソース '/spring_security_sample/src/main/java/com/example/User.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-04-22 11:10:58.394
+!MESSAGE リソース '/spring_security_sample/src/main/java/com/example/User.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-04-22 11:10:58.399
+!MESSAGE リソース '/spring_security_sample/src/main/java/com/example/User.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-04-22 11:10:58.401
+!MESSAGE リソース '/spring_security_sample/src/main/java/com/example/User.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-04-22 11:10:58.453
+!MESSAGE リソース '/spring_security_sample/src/main/java/com/example/User.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-04-22 11:10:58.455
+!MESSAGE リソース '/spring_security_sample/src/main/java/com/example/User.java' が存在しません。
